@@ -3,3 +3,5 @@
 That's about it, all you need to know.
 
 With time this README will be probably updated.
+
+[Odin Recipes](sawertynn.github.io/odin-project/odin-recipes/index.html)

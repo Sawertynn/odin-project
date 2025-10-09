@@ -219,8 +219,3 @@ a {
     align-items: center;
     flex: 1 0 auto;
 }
-
-/* DEBUG */
-* {
-    outline: 1px solid red;
-}

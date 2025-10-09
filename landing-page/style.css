@@ -10,12 +10,15 @@
     --hero-main-size: 48px;
     --hero-main-color: #f9faf8;
     --hero-main-weight: 900;
+
     --hero-secondary-color: #e5e7eb;
     --hero-secondary-size: 18px;
+
     --hero-logo-size: 24px;
     --hero-logo-color: #f9faf8;
 
     --button-color: #3882f6;
+
     --info-header-size: 36px;
     --info-header-color: #1f2937;
     --info-header-weight: 900;
@@ -23,12 +26,17 @@
     --quote-bg-color: #e5e7eb;
     --quote-text-size: 36px;
     --quote-text-color: #1f2937;
-    --quote-text-weight: 900;
+    --quote-text-weight: 300;
 }
-
 
 body {
     color: var(--hero-main-color);
     background-color: var(--dark-bg-color);
     font-family: 'Roboto', sans-serif;
+}
+
+.hero-main {
+    size: var(--hero-main-size);
+    font-weight: var(--hero-main-weight);
+    color: var(--hero-main-color);
 }

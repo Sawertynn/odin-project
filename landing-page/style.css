@@ -169,13 +169,12 @@ a {
     background-color: var(--quote-bg-color);
     color: var(--quote-text-color);
 }
+
 .quote-text {
     font-size: var(--quote-text-size);
     font-weight: var(--quote-text-weight);
     font-style: italic;
-
     padding: 48px 20% 0 20%;
-
 }
 
 .quote-author {
@@ -185,7 +184,33 @@ a {
     text-align: right;
 }
 
+.signup-container {
+    background-color: white;
+    display: flex;
 
+}
+
+.signup-box {
+    width: 70%;
+    height: 80px;
+    margin: 6% 15%;
+    background-color: var(--action-color);
+    color: white;
+    border-radius: 8px;
+
+}
+
+.signup-box button {
+    color: white;
+    background-color: var(--button-color);
+    font-size: var(--hero-secondary-size);
+    border-radius: 4px;
+    outline: 2px solid white;
+}
+
+.signup-call {
+    font-size: --
+}
 
 .footer {
     height: 72px;

@@ -33,10 +33,91 @@ body {
     color: var(--hero-main-color);
     background-color: var(--dark-bg-color);
     font-family: 'Roboto', sans-serif;
+
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+}
+
+header,
+.awesome-container,
+.info-container,
+.quote-container,
+.signup-container,
+.footer {
+    flex: 1;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 10%;
+}
+
+.hero-logo {
+    color: var(--hero-logo-color);
+    font-size: var(--hero-logo-size);
+    font-weight: var(--hero-main-weight);
+}
+
+.header-links a{
+    color: var(--hero-secondary-color);
+    font-size: var(--hero-secondary-size);
+    padding: 0 8px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.awesome-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 48px 10%;
+}
+
+.left-awesome {
+    flex: 1;
+    /* max-width: 300px; */
 }
 
 .hero-main {
     size: var(--hero-main-size);
     font-weight: var(--hero-main-weight);
     color: var(--hero-main-color);
+}
+
+.hero-secondary {
+    font-size: var(--hero-secondary-size);
+    color: var(--hero-secondary-size);
+}
+
+.awesome-container button {
+    color: white;
+    background-color: var(--button-color);
+    font-size: var(--hero-secondary-size);
+    
+}
+
+.awesome-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: grey;
+}
+
+.footer {
+    height: 72px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1 0 auto;
+}
+
+/* DEBUG */
+* {
+    outline: 1px solid red;
 }

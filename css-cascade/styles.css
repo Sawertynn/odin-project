@@ -1,0 +1,16 @@
+/* #subsection {
+    background-color: yellow;
+    color: blue;
+}
+
+.main #subsection {
+    color: red;
+} */
+
+.list {
+    color: red;
+}
+
+.main {
+    color: blue;
+}

@@ -1,4 +1,13 @@
+.roboto-something{
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+  }
+
+
 body {
-    color: rgb(199, 201, 172);
-    background-color: rgb(38, 35, 48);
+    color: beige;
+    background-color: #1f2937;
+    font-family: 'Roboto', sans-serif;
 }

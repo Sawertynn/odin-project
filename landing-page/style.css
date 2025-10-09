@@ -5,9 +5,30 @@
     font-style: normal;
   }
 
+:root {
+    --dark-bg-color: #1f2937;
+    --hero-main-size: 48px;
+    --hero-main-color: #f9faf8;
+    --hero-main-weight: 900;
+    --hero-secondary-color: #e5e7eb;
+    --hero-secondary-size: 18px;
+    --hero-logo-size: 24px;
+    --hero-logo-color: #f9faf8;
+
+    --button-color: #3882f6;
+    --info-header-size: 36px;
+    --info-header-color: #1f2937;
+    --info-header-weight: 900;
+
+    --quote-bg-color: #e5e7eb;
+    --quote-text-size: 36px;
+    --quote-text-color: #1f2937;
+    --quote-text-weight: 900;
+}
+
 
 body {
-    color: beige;
-    background-color: #1f2937;
+    color: var(--hero-main-color);
+    background-color: var(--dark-bg-color);
     font-family: 'Roboto', sans-serif;
 }

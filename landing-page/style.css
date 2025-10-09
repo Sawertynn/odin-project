@@ -18,6 +18,7 @@
     --hero-logo-color: #f9faf8;
 
     --button-color: #3882f6;
+    --action-color: var(--button-color);
 
     --info-header-size: 36px;
     --info-header-color: #1f2937;
@@ -81,9 +82,12 @@ a {
     flex: 1;
     /* max-width: 300px; */
 }
+.left-awesome * {
+    margin: 2px;
+}
 
 .hero-main {
-    size: var(--hero-main-size);
+    font-size: var(--hero-main-size);
     font-weight: var(--hero-main-weight);
     color: var(--hero-main-color);
 }
@@ -91,13 +95,14 @@ a {
 .hero-secondary {
     font-size: var(--hero-secondary-size);
     color: var(--hero-secondary-size);
+    margin-bottom: 8px;
 }
 
 .awesome-container button {
     color: white;
     background-color: var(--button-color);
     font-size: var(--hero-secondary-size);
-    
+    border-radius: 4px;
 }
 
 .awesome-image {
@@ -107,7 +112,57 @@ a {
     align-items: center;
     color: white;
     background-color: grey;
+    border-radius: 4px;
 }
+
+.info-container {
+    color: var(--info-header-color);
+    background-color: white;
+    padding: 20px;
+}
+
+.info-header {
+    color: var(--info-header-color);
+    background-color: white;
+    font-size: var(--info-header-size);
+    font-weight: var(--info-header-weight);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 32px;
+}
+
+.info-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0 20%;
+    gap: 24px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 120px;
+    margin-bottom: 16px;
+}
+
+.cardbox {
+    width: 120px;
+    height: 120px;
+    border-radius: 10%;
+    outline: 4px solid var(--action-color);
+    margin-bottom: 8px;
+}
+
+.cardtext {
+    text-align: center;
+    font-size: 12px;
+    line-height: 1.4;
+}
+
 
 .footer {
     height: 72px;

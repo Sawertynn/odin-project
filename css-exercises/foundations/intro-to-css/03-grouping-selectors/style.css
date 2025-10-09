@@ -1,0 +1,15 @@
+/* Add CSS Styling */
+
+.blacken, .yellowen {
+    font-family: Helvetica, "Times New Roman", sans-serif;
+    font-size: 28px;
+  }
+
+.blacken {
+    color: white;
+    background-color: black;
+}
+
+.yellowen {
+    background-color: yellow;
+}

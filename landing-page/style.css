@@ -165,6 +165,27 @@ a {
     line-height: 1.4;
 }
 
+.quote-container {
+    background-color: var(--quote-bg-color);
+    color: var(--quote-text-color);
+}
+.quote-text {
+    font-size: var(--quote-text-size);
+    font-weight: var(--quote-text-weight);
+    font-style: italic;
+
+    padding: 48px 20% 0 20%;
+
+}
+
+.quote-author {
+    font-size: var(--hero-secondary-size);
+    font-weight: 900;
+    padding: 0 20% 48px;
+    text-align: right;
+}
+
+
 
 .footer {
     height: 72px;

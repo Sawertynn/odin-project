@@ -1,9 +1,9 @@
-.roboto-something{
+.roboto-something {
     font-family: "Roboto", sans-serif;
     font-optical-sizing: auto;
     font-weight: normal;
     font-style: normal;
-  }
+}
 
 :root {
     --dark-bg-color: #1f2937;
@@ -62,7 +62,7 @@ header {
     font-weight: var(--hero-main-weight);
 }
 
-.header-links a{
+.header-links a {
     color: var(--hero-secondary-color);
     font-size: var(--hero-secondary-size);
     padding: 0 8px;
@@ -82,8 +82,9 @@ a {
     flex: 1;
     /* max-width: 300px; */
 }
+
 .left-awesome * {
-    margin: 2px;
+    margin: 0 6% 0 0;
 }
 
 .hero-main {
@@ -113,6 +114,7 @@ a {
     color: white;
     background-color: grey;
     border-radius: 4px;
+    margin-left: 6%;
 }
 
 .info-container {

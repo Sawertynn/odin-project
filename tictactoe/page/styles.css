@@ -25,4 +25,10 @@ body {
     cursor: pointer;
     user-select: none;
   }
+
+  .cell:hover {
+    background-color: yellow;
+  }
+
+  .cell:
   

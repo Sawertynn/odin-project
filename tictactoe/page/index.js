@@ -12,7 +12,6 @@ cells.forEach(cell => {
 
         cell.textContent = currentPlayer;
         currentPlayer = (currentPlayer === 'X') ? 'O' : 'X';
-        cell.style.backgroundColor = 'lightgreen';
 
     })
 })

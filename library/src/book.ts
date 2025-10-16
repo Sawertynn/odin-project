@@ -12,7 +12,7 @@ export class Book {
     }
 
     info(): string {
-        const description = `${this.title} by {${this.author}, ${this.pageNumber} pages}`
+        const description = `${this.title} by ${this.author}, ${this.pageNumber} pages`
         const status = this.isRead ? 'already read' : 'not read yet';
         return `${description}, ${status}`
     }

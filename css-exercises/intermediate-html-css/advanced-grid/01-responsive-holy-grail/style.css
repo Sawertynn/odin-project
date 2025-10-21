@@ -49,3 +49,33 @@ html {
   background-color: #393f4d;
   grid-column: 1 / 3;
 }
+
+/* my code */
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 3fr;
+  grid-template-rows: 1fr 1fr 5fr 1fr;
+  gap: 15px;
+}
+
+.header {
+  grid-column: 1 / -1;
+}
+
+.sidebar {
+  grid-row: 2 / -2;
+}
+
+.nav {
+  grid-column: 2 / -1;
+}
+
+.article {
+  grid-column: 2 / -1;
+}
+
+.footer {
+  grid-row: -2 / -1;
+  grid-column: 1 / -1;
+}

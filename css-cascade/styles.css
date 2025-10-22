@@ -7,6 +7,19 @@
     color: red;
 } */
 
+:root {
+    color: beige;
+    background-color: #18181e;
+}
+
+input:focus {
+    background-color: aqua;
+}
+
+input:invalid {
+    background-color: red;
+}
+
 .list {
     color: red;
 }
